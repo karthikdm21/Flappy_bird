@@ -1,8 +1,5 @@
 # Flappy_bird
-a game developed with python using pygame module
-
-
-Flappy Bird Clone in Python 🎮
+🎮
 
 A beginner-friendly Flappy Bird clone developed using Pygame to explore and understand the fundamentals of game development in Python. This project is based on a tutorial by Code with Russ and serves as a hands-on introduction to key concepts such as:
 
