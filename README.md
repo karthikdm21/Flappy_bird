@@ -27,7 +27,7 @@ How to Run
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/karthikdm21/flappy-bird-clone.git  
+git clone https://github.com/karthikdm21/Flappy_bird/tree/main?tab=readme-ov-file
 cd flappy-bird-clone  
 
 Install Pygame if you don’t have it already:
