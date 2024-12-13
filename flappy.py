@@ -31,9 +31,9 @@ score = 0
 pass_pipe = False
 
 # load images
-bg = pygame.image.load(r'C:\Users\karth\Downloads\bg_5.png').convert_alpha()
-ground_img = pygame.image.load(r'C:\Users\karth\Downloads\floor-sprite.png').convert_alpha()
-button_img = pygame.image.load(r'C:\Users\karth\Downloads\restart.png').convert_alpha()
+bg = pygame.image.load(r'path\bg_5.png').convert_alpha()
+ground_img = pygame.image.load(r'path\floor-sprite.png').convert_alpha()
+button_img = pygame.image.load(r'path\restart.png').convert_alpha()
 
 
 # function for outputting text onto the screen
@@ -60,7 +60,7 @@ class Bird(pygame.sprite.Sprite):
         self.index = 0
         self.counter = 0
         for num in range(1, 4):
-            img = pygame.image.load(rf'C:\Users\karth\Downloads\bird{num}.png').convert_alpha()
+            img = pygame.image.load(rf'path\bird{num}.png').convert_alpha()
             self.images.append(img)
         self.image = self.images[self.index]
         self.rect = self.image.get_rect()
@@ -109,7 +109,7 @@ class Pipe(pygame.sprite.Sprite):
 
     def __init__(self, x, y, position):
         pygame.sprite.Sprite.__init__(self)
-        self.image = pygame.image.load(r'C:\Users\karth\Downloads\pipe (1).png').convert_alpha()
+        self.image = pygame.image.load(r'\pipe (1).png').convert_alpha()
         self.rect = self.image.get_rect()
         # position variable determines if the pipe is coming from the bottom or top
         if position == 1:
